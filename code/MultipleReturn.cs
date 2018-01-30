@@ -27,6 +27,8 @@ namespace myapp
             name = " ";
             returnMultiRef(ref age, ref name);
             Console.WriteLine("{0} is {1} years old", name, age);
+            Console.WriteLine(int.TryParse(name, out age));
+            Console.WriteLine(age);
         }
     }
 }
